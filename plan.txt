@@ -1,0 +1,17 @@
+create diretory structure 
+create a Npm project and install all dependencies
+-dependencies
+        -express
+        -ejs express-ejs-layouts
+-Dev dependencies
+        -nodemon
+Create Express server -create a server.js file
+create home page using html and css
+    -include custom css
+create cart page
+    -order summary section
+    -empty cart section.
+create order controller and link it in server.js
+create order view with table for customer and admin
+create orders single page with status
+create loginpage with route

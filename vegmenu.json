@@ -1,0 +1,69 @@
+[{
+
+    "name": "Phoha",
+    "image": "phoha.jpg",
+    "price": "50",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Batata Vada",
+    "image": "batata-vada.jpg",
+    "price": "30",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Pav Bhajhi",
+    "image": "pavbhajhi.jpg",
+    "price": "200",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },
+  {
+
+    "name": "Aloo-Panner Paratha",
+    "image": "panner-aloo-paratha.jpg",
+    "price": "60",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },
+  {
+
+    "name": "Dal-Rice",
+    "image": "dal-rice.webp",
+    "price": "80",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },
+  {
+
+    "name": "Butter-naan",
+    "image": "butter-naan.jpg",
+    "price": "40",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },
+  {
+
+    "name": "Bhendi-Fry",
+    "image": "bhendi-fry.jpg",
+    "price": "140",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },
+  {
+
+    "name": "Veg Handi",
+    "image": "veg-handi.jpg",
+    "price": "180",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },
+  {
+
+    "name": "Mashroom masala",
+    "image": "mashroom-masala.jpg",
+    "price": "280",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },
+  {
+
+    "name": "Veg-Thali",
+    "image": "Thali.jpg",
+    "price": "299",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+]

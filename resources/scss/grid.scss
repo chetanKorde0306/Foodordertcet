@@ -1,0 +1,101 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Baloo+Bhaina+2:wght@500;600&family=Nunito:wght@300;400;600;700&family=Poppins:wght@300&display=swap');
+
+        * {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            /* background-color: #2196f3; */
+            padding: 10px;
+            grid-column: 4;
+        }
+
+        .grid-item {
+            /* background-color: rgba(255, 255, 255, 0.8); */
+            /* border: 1px solid rgba(0, 0, 0, 0.8); */
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .grid-item img {
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        .grid-item h4 {
+            margin: 0;
+            margin-top: 10px;
+        }
+
+        @media (min-width: 600px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 300px) {
+            .grid-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        /* Screen larger than 900px? 3 columns */
+        @media (min-width: 900px) {
+            .grid-container {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .heading span {
+            padding-left: 5rem;
+            padding-right: 5rem;
+        }
+
+        #more {
+            display: none;
+        }
+
+        #myBtn {
+            /* display: block; */
+            width: 80%;
+            border: none;
+            background-color: #e98804;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            margin: auto 15rem;
+            margin-bottom: 2rem;
+            color: #fff;
+            font-weight: bold;
+            /* background: linear-gradient(45deg,#1098ad,#e98804); */
+        }
+
+        #myBtn:hover {
+            background-color: #1098ad;
+            letter-spacing: 4px;
+            border-radius: 15px;
+        }
+        .heading{
+            text-align: center;
+            padding: 2rem 0;
+            padding-bottom: 3rem;
+            font-size: 3.5rem;
+            color: var(--black);
+        }
+        .heading span{
+            // background: var(--orange);
+            background: linear-gradient(45deg,#1098ad,#e98804);
+            color: #fff;
+            display: inline-block;
+            padding: 1rem 5rem;
+            clip-path: polygon(100% 0 ,93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
+        }
+        .heading span:hover{
+            background: var(--bluish);
+            
+        }

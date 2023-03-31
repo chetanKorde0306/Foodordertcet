@@ -1,0 +1,56 @@
+<head>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" /> -->
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+
+<div class="box-form " style="border-style: ;">
+    <div class="left">
+        <div class="beforeleft">
+            <div class="overlay">
+                <h1>Hey, Foodie!!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem incidunt libero quibusdam?</p>
+                <div class="buttn">
+                    <a href="" class="facebook"><i class="fa fa-facebook"></i>Log in with facebook</a>
+                    <br>
+                    <br>
+                    <a href="" class="twitter"><i class="fa fa-twitter"></i>Log in with twitter</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="right">
+       
+        <h5>LOGIN</h5>
+        <p>Don'g have an account <a href="/register">create your account</a>it takes a less than a
+            minute</p>
+        <br>
+        <form action="/login" method="post">
+            <% if(messages.error) {%>
+                <span class="error" style="font-size: 1.5rem; color:red"><%= messages.error%></span>
+            <% } %>
+            <div class="inputs">
+                <div class="name">
+                    <input type="email" placeholder="Enter Your  Email" name="email">
+
+                </div><br>
+                <div class="pass">
+                    <input type="password" name="password"  placeholder="Enter your password">
+
+                </div><br>
+                <div class="confpass">
+
+                    <input type="password" name="cpass"  placeholder="Confirm your password">
+
+                </div>
+
+
+
+            </div><br>
+            <div class="btn1">
+                <button type="submit">LOGIN</button>
+            </div>
+
+        </form>
+    </div>
+</div>

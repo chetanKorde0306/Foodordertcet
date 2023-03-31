@@ -1,0 +1,121 @@
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <style>
+        .orders {
+            /* background: linear-gradient(45deg, var(--orange), var(--bluish));
+    color: white;
+    font-weight: bold; */
+            margin: 10rem;
+            min-height: 100vh;
+        }
+
+        .container h1 {
+            font-size: 2.5rem;
+            /* color: var(--bluish); */
+            margin-bottom: 1.5rem;
+        }
+
+        #success-alert {
+            font-size: 2rem;
+            color: white;
+            height: 4rem;
+            margin-bottom: 1rem;
+            background: #1f8912;
+        }
+
+        #table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #table tr:hover {
+            background-color: #ddd;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse
+        }
+
+        thead {
+            background: linear-gradient(45deg, var(--orange), var(--bluish));
+            color: white;
+            font-weight: bold;
+        }
+
+        thead th {
+            padding: 1rem;
+            font-size: 2rem;
+
+        }
+        tbody{
+            font-size: 1.5rem;
+        }
+        tbody tr td{
+            padding: 1.5rem;
+            font-weight: bold;
+            border-bottom: 1px solid var(--bluish)
+        }
+        .link{
+            color: var(--orange);
+            font-weight: bolder
+        }
+    </style>
+</head>
+<section class="orders ligh-section">
+
+    <div class="container mx-auto pt-12">
+        <h1 class="font-bold text-lg">
+            All orders
+        </h1>
+        <% if(messages.success) {%>
+
+        <div id="success-alert" class="flex items-center bg-green-500 text-white text-sm font-bold px-4 py-3 "
+            role="alert">
+            <!-- <p>Order placed successfully</p> -->
+            <p><%= messages.success%></p> 
+        </div>
+        <% } %>
+
+        <table class="w-full table-auto bg-white" id="table">
+            <thead>
+                <tr>
+                    <th class="px-4 py-2 text-left">Orders</th>
+                    <th class="px-4 py-2 text-left">Phone</th>
+                    <th class="px-4 py-2 text-left">Address</th>
+                    <th class="px-4 py-2 text-left">Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% if(orders.length) { %>
+                    <% orders.forEach((order)=>{ %>
+                        <tr>
+                            <td class=" "><a class="link" href="/">
+                                    <%= order._id%>
+                                </a>
+                            </td>
+                            <td class=" ">
+                                <%= order.phone%>
+                            </td>
+                            <td class=" ">
+                                <%= order.address%>
+                            </td>
+                            </td>
+                            <td class=" ">
+                                <%= moment(order.createdAt).format('hh:mm: A')%>
+                            </td>
+                        </tr>
+                        <% }) %>
+
+                            <%}else{%>
+
+                                <tr>
+                                    <td class="p-4"><span>No orders found</span></td>
+                                </tr>
+
+
+                                <% } %>
+            </tbody>
+        </table>
+    </div>
+
+</section>

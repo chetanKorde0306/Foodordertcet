@@ -1,0 +1,323 @@
+<head>
+    <link rel="stylesheet" href="/css/menu.css">
+    <style>
+    .arrow button{
+        background: none;
+    font-size: 5rem;
+    /* color: #fff; */
+    }
+    .cont{
+        display: none;
+    }
+    </style>
+</head><section>
+
+    <div class="container">
+
+        <div class="cont1 cont-1non-veg">
+            <div class="arrow"  > <button id="mybtntext" onclick="myFunction()">&#9650;</button></div>
+            <div class="heading">
+                <h3>Non veg </h3>
+            </div>
+
+            <div class=" cont  " id="cont">
+                <% nonvegitems.forEach(function(nonvegitem){ %>
+                <div class="card">
+                    <div class="img">
+                        <img  class="cover" src="/img/nonveg/<%= nonvegitem.image %>" alt="">
+                    </div>
+                    <div class=" items name">
+                        <h3><%= nonvegitem.name %></h3>
+
+                    </div>
+                    <div class=" items desc">
+                        <p><%= nonvegitem.desc %></p>
+                    </div>
+                    <div class=" items prices">
+                        <p><%= nonvegitem.price  %>₹</p>
+                    </div>
+                    <div class=" items ">
+                        <button class="btn add-to-cart "  data-item="<%=  JSON.stringify(nonvegitem) %>" >add to cart</button>
+
+                    </div>
+                </div>
+                <% })%>
+              
+            </div>
+        </div>
+
+
+        <div class="cont1 cont-2veg">
+            <div class="arrow"><button id="vmybtntext" onclick="myvegFunction()"  >&#9650;</button></div>
+            <div class="heading">
+                <h3>veg</h3>
+            </div>
+
+            <div class=" cont  " id="vcont">
+                <% vegitems.forEach(function(vegitem){ %>
+                <div class="card">
+                    <div class="img">
+                        <img  class="cover" src="/img/veg/<%= vegitem.image %>" alt="">
+                    </div>
+                    <div class=" items name">
+                        <h3><%= vegitem.name %></h3>
+
+                    </div>
+                    <div class=" items desc">
+                        <p><%= vegitem.desc %></p>
+                    </div>
+                    <div class=" items prices">
+                        <p><%= vegitem.price  %>₹</p>
+                    </div>
+                    <div class=" items ">
+                        <button class="btn add-to-cart "  data-item="<%=  JSON.stringify(vegitem) %>" >add to cart</button>
+
+                    </div>
+                </div>
+                <% })%>
+              
+            </div>
+          
+        </div>
+
+
+
+        <div class="cont1 cont-3drinks ">
+            <div class="arrow"> <button id="dmybtntext" onclick="mydrinkFunction()"  >&#9650;</button></div>
+            <div class="heading">
+                <h3>drinks</h3>
+            </div>
+            <div class=" cont  " id="dcont">
+                <% drinkitems.forEach(function(drinkitem){ %>
+                <div class="card">
+                    <div class="img">
+                        <img  class="cover" src="/img/drinks/<%= drinkitem.image %>" alt="">
+                    </div>
+                    <div class=" items name">
+                        <h3><%= drinkitem.name %></h3>
+
+                    </div>
+                    <div class=" items desc">
+                        <p><%= drinkitem.desc %></p>
+                    </div>
+                    <div class=" items prices">
+                        <p><%= drinkitem.price  %>₹</p>
+                    </div>
+                    <div class=" items ">
+                        <button class="btn add-to-cart "  data-item="<%=  JSON.stringify(drinkitem) %>" >add to cart</button>
+
+                    </div>
+                </div>
+                <% })%>
+              
+            </div>
+          
+        </div>
+
+
+        <div class="cont1 cont-4sweet">
+            <div class="arrow"><button id="smybtntext" onclick="mysweetFunction()"  >&#9650;</div>
+            <div class="heading">
+                <h3>sweet</h3>
+            
+            </div>
+            <div class=" cont  " id="scont">
+                <% sweetitems.forEach(function(sweetitem){ %>
+                <div class="card">
+                    <div class="img">
+                        <img  class="cover" src="/img/sweets/<%= sweetitem.image %>" alt="">
+                    </div>
+                    <div class=" items name">
+                        <h3><%= sweetitem.name %></h3>
+
+                    </div>
+                    <div class=" items desc">
+                        <p><%= sweetitem.desc %></p>
+                    </div>
+                    <div class=" items prices">
+                        <p><%= sweetitem.price  %>₹</p>
+                    </div>
+                    <div class=" items ">
+                        <button class="btn add-to-cart "  data-item="<%=  JSON.stringify(sweetitem) %>" >add to cart</button>
+
+                    </div>
+                </div>
+                <% })%>
+              
+            </div>
+            
+        </div>
+
+        <div class="cont1 cont-3drinks " style="background-color: rgb(250, 250, 128);">
+            <div class="arrow"><button id="pmybtntext" onclick="mypizzaFunction()"  >&#9650; </div>
+            <div class="heading">
+                <h3>Pizzas</h3>
+            </div>
+            <div class=" cont  " id="pcont">
+                <% pizzaitems.forEach(function(pizzaitem){ %>
+                <div class="card">
+                    <div class="img">
+                        <img  class="cover" src="/img/pizzas/<%= pizzaitem.image %>" alt="">
+                    </div>
+                    <div class=" items name">
+                        <h3><%= pizzaitem.name %></h3>
+
+                    </div>
+                    <div class=" items desc">
+                        <p><%= pizzaitem.desc %></p>
+                    </div>
+                    <div class=" items prices">
+                        <p><%= pizzaitem.price  %>₹</p>
+                    </div>
+                    <div class=" items ">
+                        <button class="btn add-to-cart "  data-item="<%=  JSON.stringify(pizzaitem) %>" >add to cart</button>
+
+                    </div>
+                </div>
+                <% })%>
+              
+            </div>
+            
+           
+        </div>
+
+
+        <div class="cont1 cont-2veg">
+            <div class="arrow"><button id="imybtntext" onclick="myiceFunction()"  >&#9650; </div>
+            <div class="heading">
+                <h3>Ice-cream</h3>
+            </div>
+            <div class=" cont  " id="icont">
+                <% iceitems.forEach(function(iceitem){ %>
+                <div class="card">
+                    <div class="img">
+                        <img  class="cover" src="/img/icecream/<%= iceitem.image %>" alt="">
+                    </div>
+                    <div class=" items name">
+                        <h3><%= iceitem.name %></h3>
+
+                    </div>
+                    <div class=" items desc">
+                        <p><%= iceitem.desc %></p>
+                    </div>
+                    <div class=" items prices">
+                        <p><%= iceitem.price  %>₹</p>
+                    </div>
+                    <div class=" items ">
+                        <button class="btn add-to-cart "  data-item="<%=  JSON.stringify(iceitem) %>" >add to cart</button>
+
+                    </div>
+                </div>
+                <% })%>
+              
+            </div>
+            
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<script>
+
+// var cont = document.getElementById('cont');
+// var btnText = document.getElementById("mybtntext");
+
+
+
+
+    function myFunction() {
+        
+        var cont = document.getElementById('cont')
+        var btnText = document.getElementById("mybtntext");
+
+        if (cont.style.display === "none") {
+     
+            cont.style.display = "flex";
+            btnText.innerHTML = " &#9650;";
+        } else {
+            cont.style.display = "none";
+            
+            btnText.innerHTML = " &#9660";
+        }
+    }
+    function myvegFunction() {
+        
+        var cont = document.getElementById('vcont')
+        var btnText = document.getElementById("vmybtntext");
+    
+        if (cont.style.display === "none") {
+     
+            cont.style.display = "flex";
+            btnText.innerHTML = " &#9650;";
+        } else {
+            cont.style.display = "none";
+            
+            btnText.innerHTML = " &#9660";
+        }
+    }
+    function mydrinkFunction() {
+        
+        var cont = document.getElementById('dcont')
+        var btnText = document.getElementById("dmybtntext");
+    
+        if (cont.style.display === "none") {
+     
+            cont.style.display = "flex";
+            btnText.innerHTML = " &#9650;";
+        } else {
+            cont.style.display = "none";
+            
+            btnText.innerHTML = " &#9660";
+        }
+    }
+    function mysweetFunction() {
+        
+        var cont = document.getElementById('scont')
+        var btnText = document.getElementById("smybtntext");
+    
+        if (cont.style.display === "none") {
+     
+            cont.style.display = "flex";
+            btnText.innerHTML = " &#9650;";
+        } else {
+            cont.style.display = "none";
+            
+            btnText.innerHTML = " &#9660";
+        }
+    }
+    function mypizzaFunction() {
+        
+        var cont = document.getElementById('pcont')
+        var btnText = document.getElementById("pmybtntext");
+    
+        if (cont.style.display === "none") {
+     
+            cont.style.display = "flex";
+            btnText.innerHTML = " &#9650;";
+        } else {
+            cont.style.display = "none";
+            
+            btnText.innerHTML = " &#9660";
+        }
+    }
+    function myiceFunction() {
+        
+        var cont = document.getElementById('icont')
+        var btnText = document.getElementById("imybtntext");
+    
+        if (cont.style.display === "none") {
+     
+            cont.style.display = "flex";
+            btnText.innerHTML = " &#9650;";
+        } else {
+            cont.style.display = "none";
+            
+            btnText.innerHTML = " &#9660";
+        }
+    }
+
+ 
+</script>

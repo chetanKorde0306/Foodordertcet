@@ -1,0 +1,29 @@
+[{
+
+    "name": "Mint-Chocolate-chips",
+    "image": "mint-chocolate-chips.jpg",
+    "price": "350",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Butter Scotch Ice cream",
+    "image": "butterscotch.jpg",
+    "price": "300",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+  ,{
+
+    "name": "Chocolate Ice Cream",
+    "image": "chocolate.jpg",
+    "price": "200",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+  ,{
+
+    "name": "Strawberry Ice Cream",
+    "image": "strawberry.jpg",
+    "price": "100",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+  
+]

@@ -1,0 +1,66 @@
+[{
+
+    "name": "Masala Chai",
+    "image": "masala-chai.jpg",
+    "price": "50",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Filter Coffee",
+    "image": "filer-coffee.webp",
+    "price": "100",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Masala Chaas",
+    "image": "masla-chaas.jpg",
+    "price": "30",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Masala Chaas",
+    "image": "masla-chaas.jpg",
+    "price": "30",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+  ,{
+
+    "name": "Lassi",
+    "image": "lassi.jpg",
+    "price": "50",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+  ,{
+
+    "name": "Thandai",
+    "image": "thandai.jpg",
+    "price": "80",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  } ,{
+
+    "name": "Toddy",
+    "image": "toddy.jpg",
+    "price": "100",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  } ,{
+
+    "name": "Aam Panna",
+    "image": "aam-panna.jpg",
+    "price": "150",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+   ,{
+
+    "name": "Nimbu Pani",
+    "image": "nimbu-pani.jpg",
+    "price": "50",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+   ,{
+
+    "name": "Panner Soda",
+    "image": "paneer-soda.jpg",
+    "price": "150",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+]

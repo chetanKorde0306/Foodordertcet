@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto</title>
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" /> -->
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Baloo+Bhaina+2:wght@500;600&family=Lato:wght@400;700&family=Nunito:wght@300;400;600;700&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <style>
+        .icons button {
+            font-size: 2rem;
+            color: var(--black);
+            border-radius: 9999px;
+            /* padding: 3px; */
+            padding-left: 2rem;
+            background-color: var(--orange);
+            background: linear-gradient(45deg, var(--orange), var(--bluish));
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- header section start  -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+
+        <nav class="navbar">
+            <a class="active" href="/">home</a>
+            <a href="/menu">Menu</a>
+            <!-- <a href="/about">about</a> -->
+            <a href="/cart">cart</a>
+            <a href="/contact">contact</a>
+            <!-- <a href="#">home</a> -->
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <% if(user) {%>
+
+                <!-- <form onclick="document.getElementById('logout').submit" ondblclick="document.getElementById('logout').submit" id="logout" action="/logout" method="post"
+                    style="display: inline-block;">
+                    <!-- <a href="#" class="fas fa-sign-out-alt" style="margin: 2px ;"></a> -->
+                    <!-- <a href="#">Logout</a>
+                </form> --> 
+
+                <form action="/logout" method="post" style="display: inline-block;">
+                    <button type="submit" style='font-size:20px'>Logout <a href="#" class='fas fa-sign-out-alt' style="margin: 2px;"></a></button>
+                
+                </form>
+                <%}else{%>
+                    <a class="fas fa-user" href="/login"></a>
+                 <%}%>
+
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="/cart" class="fas fa-shopping-cart" ">
+                  
+                <span id=" cartCounter" class="text-orange font-bold ">
+                            <%= session.cart? session.cart.totalQty: '' %></span>
+                        </a>
+                        <!-- <img src="/img/cart.png" alt=""> -->
+                        <!-- <a href="/cart" class="fas fa-shopping-cart">
+
+            </a> -->
+        </div>
+    </header>
+    <!-- header section ends  -->
+
+    <!-- ////////////////////// -->
+    <%- body%>
+
+        <section class="footer">
+
+            <div class="icons-container">
+
+                <div class="icons">
+                    <i class="fas fa-clock"></i>
+                    <h3>opening hours</h3>
+                    <p>07:00am to 10:00pm</p>
+                </div>
+
+                <div class="icons">
+                    <i class="fas fa-phone"></i>
+                    <h3>phone</h3>
+                    <p>+123-456-7890</p>
+                    <p>+111-222-3333</p>
+                </div>
+
+                <div class="icons">
+                    <i class="fas fa-envelope"></i>
+                    <h3>email</h3>
+                    <p>shanidhya@gmail.com</p>
+                    <p>chetan@gmail.com</p>
+                    <p>harsh@gmail.com</p>
+                </div>
+
+                <div class="icons">
+                    <i class="fas fa-map"></i>
+                    <h3>address</h3>
+                    <p>mumbai, india - 400104</p>
+                </div>
+
+            </div>
+
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+
+            <div class="credit"> created by <span>tcet</span> | all rights reserved! </div>
+
+        </section>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+        <script src="/js/app.js"></script>
+
+
+</body>
+
+</html>

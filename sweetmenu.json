@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Gulab Jamun",
+        "image": "gulabjamun.jpg",
+        "price": "300",
+        "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+    },
+    {
+        "name": "Gajar Ka Halwa",
+        "image": "halwa.jpg",
+        "price": "100",
+        "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+    },
+    {
+        "name": "Brownie",
+        "image": "brownie.jpg",
+        "price": "200",
+        "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+    },
+    {
+        "name": "Kheer",
+        "image": "halwa.jpg",
+        "price": "300",
+        "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+    },
+    {
+        "name": "Jalebi",
+        "image": "jalebi.jpg",
+        "price": "300",
+        "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+    },
+    {
+        "name": "Rasmalai",
+        "image": "rasmalai.jpg",
+        "price": "400",
+        "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+    },
+    {
+        "name": "Shrikhand",
+        "image": "shrikhand.jpg",
+        "price": "400",
+        "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+    },
+    {
+        "name": "Gevar",
+        "image": "gevar.jpg",
+        "price": "150",
+        "desc": "It's a rajastan cousine"
+    }
+]

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Baloo+Bhaina+2:wght@500;600&family=Nunito:wght@500&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Baloo Bhaijaan 2', 'Nunito', sans-serif;
+    font-size: 2rem;
+}
+
+:root {
+
+    --box-shadow: 0 .5rem 1.5rem rgb(0, 0, 0, 0.5);
+    --bluish: #3b9e9f;
+    --orange: #e98804;
+    --light-color: #dfdad4;
+    --bg: #fcf0c3;
+    --dark-bg: rgba(0, 0, 0, .7);
+    --light-white: #ccc;
+}
+
+.main-cart {
+    box-sizing: border-box;
+    min-height: 60vh;
+    margin: 0 auto;
+    margin-top: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+input {
+    outline: auto;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.head {
+    background: linear-gradient(135deg, var(--orange), var(--bluish));
+    border: none;
+}
+
+th {
+    text-align: left;
+    padding: 0.5rem;
+    color: white;
+    font-weight: normal;
+    font-weight: bolder;
+
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td small{
+    font-weight: bolder;
+}
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+td a {
+    color: var(--bluish);
+}
+td a:hover {
+    color: var(--orange);
+}
+.btnn a{
+    color: #fff;
+}
+.btnn a:hover{
+    color: #fff;
+    /* font-weight: bolder; */
+    letter-spacing: 0.4px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+tr{
+    border-bottom: 1px solid var(--bluish);
+}
+.pricess{
+    width: 80%;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.total-price table{
+    
+    border-top: 3px solid var(--orange);
+    
+    width: 100%;
+    max-width: 430px;
+    
+}
+.total-price tr{
+    border: none;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+.pricess .btnn button{
+    box-sizing: border-box;
+     width:100% ;
+     background: linear-gradient(135deg, var(--bluish), var(--orange));
+     border-radius: 10px;
+     color: white;
+}
+@media only screen and (max-width:600px) {
+   .cart-info p{
+       display: none;
+
+   } 
+   .main-cart{
+       margin-top: 0;
+   }
+}
+@media only screen and (max-width:541px) {
+  
+   .main-cart{
+       margin-top: 12rem;
+   }
+}
+@media only screen and (max-width:300px) {
+  
+   .main-cart{
+       margin-top: 5rem;
+   }
+}

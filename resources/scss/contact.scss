@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Baloo+Bhaina+2:wght@500;600&family=Nunito:wght@300;400;600;700&family=Poppins:wght@300&display=swap');
+.main {
+    box-sizing: border-box;
+    min-height: 100vh;
+    /* margin-top: 7rem; */
+
+}
+
+.main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 9rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+    background-image: url("/img/contactus2.jpg");
+    /* background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531); */
+    background-size: cover;
+    /* margin-bottom: 2.5rem; */
+    /* color: white; */
+}
+
+.contact .content {
+    max-width: 50rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.contact .content h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    /* color: #fff; */
+    color: var(--bluish);
+    /* font-family: ; */
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.contact .content p {
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    /* color: #fff; */
+}
+
+.container .contactInfo {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.container .contactInfo .box .icon {
+    min-width: 4rem;
+    height: 4rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    font-size: 2rem;
+
+}
+
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+
+.container .contactInfo .box .text h3 {
+    font-size: 900;
+    color: var(--bluish);
+    font-size: 2rem;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 3rem;
+    background-color: #fff;
+}
+
+.contactForm h2 {
+
+    color: var(--orange);
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+
+
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 0.5rem 0;
+    margin: 10px 0;
+    border-bottom: 2px solid black;
+    resize: none;
+
+}
+
+button {
+    background: var(--bluish);
+    padding: 0 1rem;
+    font-size: 2rem;
+    border-radius: 3px;
+    color: #fff;
+}
+.btn1{
+    background: linear-gradient(45deg, var(--orange), #1098ad);
+    padding: 0.5rem;
+    width: 12rem;
+    letter-spacing: 2px;
+    border-radius: 1rem;
+}
+.btn1:hover{
+    background: linear-gradient(45deg, #1098ad, var(--orange));
+    letter-spacing: 4px;
+}
+
+button:hover {
+    background-color: var(--orange);
+
+}
+.map{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map iframe{
+    width: 80%;
+
+}
+
+.footer {
+    margin-top: 0;
+}
+
+@media (max-width:991px) {
+    .contact {
+        padding: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contactInfo,
+    .contactForm {
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+}

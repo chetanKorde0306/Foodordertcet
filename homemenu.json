@@ -1,0 +1,50 @@
+[{
+
+    "name": "Indo-Chineaase-Thali",
+    "image": "pjimage-2021-03-22t121424273-1616396695.jpg",
+    "price": "250",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Punjabi Thali",
+    "image": "punjabi-thali.jpg",
+    "price": "300",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "South-indian-Thali",
+    "image": "south-indian thali.jpg",
+    "price": "300",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Kolhapuri_Misal_Pav",
+    "image": "maxresdefault.jpg",
+    "price": "350",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Dal-Makhani",
+    "image": "dal-makhani-makhni-popular-dish-260nw.png",
+    "price": "300",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Idli-sambar",
+    "image": "idsidisdisdd.jpg",
+    "price": "100",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Chiken biryani",
+    "image": "chikenbiryani.png",
+    "price": "100",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Uttapam",
+    "image": "uttapam.png",
+    "price": "100",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+]

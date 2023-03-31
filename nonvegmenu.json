@@ -1,0 +1,28 @@
+[{
+
+    "name": "Chiken",
+    "image": "chiken.png",
+    "price": "250",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "nuggets",
+    "image": "dish-2.png",
+    "price": "300",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+  ,{
+
+    "name": "Chiken 65",
+    "image": "chiken65.jpg",
+    "price": "350",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+  ,{
+
+    "name": "Grilled Chicken Escalope with Fresh Salsa.",
+    "image": "grilled-chiken.jpg",
+    "price": "300",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+]

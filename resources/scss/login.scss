@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Baloo+Bhaina+2:wght@500;600&family=Nunito:wght@500&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2', 'Nunito', sans-serif;
+    ;
+}
+
+body{
+    /* background-color:#e98804; */
+    /* background: url('' ) no-repeat;
+      /* The image used */
+  /* background-color:linear-gradient(90deg,#e98804,#fff) ; */
+  /* background: linear-gradient(90deg, var(--orange),#fff, #1098ad); */
+  /* background: radial-gradient(circle,#1098ad ,#fff, var(--orange)); */
+  background: linear-gradient(90deg,#1098ad , var(--orange));
+  
+  /* opacity: 0.5; */
+  padding-top: 75px;
+//   font-size: large;
+  /* Full height */
+  /* height: 200%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+    */
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+}
+:root {
+    --box-shadow: 0 .5rem 1.5rem rgb(0, 0, 0, 0.5);
+    --bluish: #3b9e9f;
+    --orange: #e98804;
+    --light-color: #dfdad4;
+    --bg: #fcf0c3;
+    --dark-bg: rgba(0, 0, 0, .7);
+    --light-white: #ccc;
+}
+
+
+
+.box-form {
+    margin: 4rem auto;
+    width: 50%;
+    height: 90%;
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 2rem 0.6rem rgba(0, 0, 0, .7);
+    /* box-shadow: 12px 12px 2px 1px rgb(215, 215, 223); */
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.box-form .left {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://img.freepik.com/free-photo/cozy-restaurant-with-people-waiter_175935-230.jpg?size=626&ext=jpg&ga=GA1.2.515947027.1638811522");
+    color: #fff;
+
+}
+.box-form .beforeleft{
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.box-form .left .overlay {
+    padding: 3rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.box-form .left .overlay h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-top: 15vh;
+    margin-bottom: 0vh;
+
+}
+
+.box-form .left .overlay .buttn {
+    margin-top: 13vh;
+
+}
+
+.box-form .left .overlay .buttn a {
+    background: #3b5998;
+    color: #000;
+  
+    padding: 10px 40px;
+    border-radius: 10rem;
+    display: inline-block;
+    box-shadow: 0 3px 1px #042d4657;
+
+}
+
+.box-form .left .overlay .buttn a:last-child {
+    background: #1dcaff;
+    margin-left: 0vw;
+    padding-left: 4vw;
+}
+.box-form .left .overlay .buttn a:hover,
+.box-form .left .overlay .buttn a:last-child:hover {
+    letter-spacing: 0.1rem;
+}
+.box-form .right {
+    padding-left: 2rem;
+    overflow: hidden;
+    width: 55%;
+    /* height: 100%; */
+    padding-right: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // font-size: 3rem;
+}
+
+.inputs input {
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid var(--bluish);
+    outline: none;
+}
+
+.right h5 {
+    text-align: left;
+    font-size: 2.7rem;
+    color: var(--bluish);
+}
+
+.right p {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+// .right .btn button {
+//     height: 100%;
+//     width: 100%;
+//     border-radius: 5px;
+//     border: none;
+//     color: #fff;
+//     font-size: 18px;
+//     font-weight: 500;
+//     letter-spacing: 1px;
+//     cursor: pointer;
+//     transition: all 0.3s ease;
+//     /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+//     background: linear-gradient(135deg, var(--orange), var(--bluish));
+
+// }
+.right button{
+    width: 100%;
+    margin-top: 1rem;
+    display: inline-block;
+    background: linear-gradient(45deg,#1098ad,#e98804);
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem 3rem;
+    border-radius: 9999px;
+}
+.right button:hover{
+    letter-spacing: 0.3rem;
+    // background: #1098ad;
+    background: linear-gradient(45deg,#e98804,#1098ad);
+    border-radius: 1rem;
+}
+
+@media(max-width:980px) {
+    .box-form {
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        height: auto;
+
+    }
+    .box-form .right{
+        box-sizing: border-box;
+        width: 100%;
+        padding-bottom: 2rem;
+
+    }
+}

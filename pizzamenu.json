@@ -1,0 +1,29 @@
+[{
+
+    "name": "Farmhouse Pizza",
+    "image": "farmhouse.jpg",
+    "price": "350",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  },{
+
+    "name": "Peppy-Panner Pizza",
+    "image": "peppy-panner.jpg",
+    "price": "300",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+  ,{
+
+    "name": "Delux Veggie Pizza",
+    "image": "delux-veggie.jpg",
+    "price": "350",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+  ,{
+
+    "name": "Indi-Chiken-Tikka Pizza",
+    "image": "indi-chiken-tikka.jpg",
+    "price": "500",
+    "desc": "Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Facilis, Cumque?? "
+  }
+  
+]
